@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- задаём иконку вкладки -->
+  <link rel="stylesheet" href="style.css"> <!-- подключаем внешний файл со стилями -->
+  <link rel="stylesheet" href="media.css"> <!-- подключаем внешний файл со стилями (медиазапросы) -->
+  <SCRIPT src="jquery-3.5.1.min.js"></SCRIPT> <!-- подключаем локальный файл с библиотекой jquery -->
+  <script src="script.js"></script> <!-- подключаем внешний файл сценария -->
+  <title>Frontend Mentor | E-commerce product page</title> <!-- заголовок вкладки -->
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="content">
+
+      <header>
+        <div class="nav-wrp">
+          <div class="cart-menu">
+            <div class="cart-menu-hdr">Cart</div>
+            <div class="cart-menu-empty">Your cart is empty.</div>
+            <div class="cart-menu-fill">
+              <div class="cart-menu-fill-flex">
+                <div class="cart-menu-item">
+                  <img src="images/image-product-1-thumbnail.jpg" alt="item" class="cart-menu-item-img">
+                </div>
+                <div class="cart-menu-item-text">
+                  <div class="cart-menu-item-hdr">Fall Limited Edition Sneakers</div>
+                  <div class="cart-menu-item-cost-wrp">
+                    <div class="cart-menu-item-cost">$125.00 x </div>
+                    <div class="cart-menu-item-cost-amount">1</div>
+                    <div class="cart-menu-item-cost-total">$375.00</div>
+                  </div>
+                </div>
+                <div class="cart-menu-item-delete"></div>
+              </div>
+              <div class="cart-menu-checkout">Checkout</div>
+            </div>
+          </div>
+          <div class="logo"></div>
+          <nav>
+            <div class="nav-collections nav-items">Collections</div>
+            <div class="nav-men nav-items">Men</div>
+            <div class="nav-woman nav-items">Woman</div>
+            <div class="nav-about nav-items">About</div>
+            <div class="nav-contact nav-items">Contact</div>
+          </nav>
+        </div>
+        <div class="shopping-cart">
+          <div class="cart-img"></div>
+          <div class="profile"></div>
+        </div>
+      </header>
+
+      <section class="lot">
+        <div class="lot-images-wrp">
+          <div class="lot-main-wrp">
+            <img src="images/image-product-1.jpg" alt="image" class="lot-main">
+            <img src="images/image-product-1.jpg" class="popup_img-1">
+            <div class="divider-1">
+              <div class="popup-left-1"></div>
+              <div class="popup-right-1"></div>
+            </div>
+          </div>
+          <div class="lot-images-under-wrp">
+            <img src="images/image-product-1-thumbnail.jpg" alt="" class="image-1">
+            <img src="images/image-product-2-thumbnail.jpg" alt="" class="image-2">
+            <img src="images/image-product-3-thumbnail.jpg" alt="" class="image-3">
+            <img src="images/image-product-4-thumbnail.jpg" alt="" class="image-4">
+          </div>
+        </div>
+        <div class="lot-subscribtion">
+          <div class="sneaker-company">sneaker company</div>
+          <div class="product-name">Fall Limited Edition Sneakers</div>
+          <div class="product-sub">These low-profile sneakers are your perfect casual wear companion. Featuring a
+            durable rubber outer sole, they'll withstand everything the weather can offer.
+          </div>
+          <div class="lot-prise-wrp">
+            <div class="lot-prise">$125.00</div>
+            <div class="lot-prise-sell">50%</div>
+          </div>
+          <div class="lot-prise-old">$250.00</div>
+          <div class="add-options">
+            <div class="amount-menu">
+              <div class="amount-minus"></div>
+              <div class="amount-count">1</div>
+              <div class="amount-plus"></div>
+            </div>
+            <div class="add-cart-wrp">
+              <div class="add-cart-img"></div>
+              <div class="add-cart-text">Add to cart</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+  <div class="popup">
+    <div class="popup_bg"></div>
+    <img src="images/image-product-1.jpg" class="popup_img">
+    <div class="divider">
+      <div class="popup-left"></div>
+      <div class="popup-right"></div>
+      <div class="lot-images-under-wrp-2">
+        <img src="images/image-product-1-thumbnail.jpg" alt="" class="image-1">
+        <img src="images/image-product-2-thumbnail.jpg" alt="" class="image-2">
+        <img src="images/image-product-3-thumbnail.jpg" alt="" class="image-3">
+        <img src="images/image-product-4-thumbnail.jpg" alt="" class="image-4">
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
